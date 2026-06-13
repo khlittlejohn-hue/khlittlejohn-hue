@@ -15,3 +15,5 @@ A 12-department, 60+ agent operations system I designed and run on Claude Code. 
 - 🤝 Open to **chief-of-staff, strategy, and operations** roles where systems thinking earns its keep
 
 📍 New York · Sydney · Remote
+
+**Reach me:** [LinkedIn](https://www.linkedin.com/in/kyle-littlejohn-) · [khlittlejohn@gmail.com](mailto:khlittlejohn@gmail.com) · [khlittlejohn-hue.github.io](https://khlittlejohn-hue.github.io/)
