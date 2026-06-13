@@ -2,7 +2,7 @@
 
 Operator and applied-AI builder. Twelve years across chief-of-staff, strategy, PMO, and consulting work — the kind of role that runs on turning ambiguity into systems other people can execute against.
 
-🌐 **[kylelittlejohn.dev → khlittlejohn-hue.github.io](https://khlittlejohn-hue.github.io/)**
+🌐 **[My website ↗](https://khlittlejohn-hue.github.io/)**
 
 I build with AI the way I would staff a team: clear roles, hard quality gates, and a human on every decision that actually matters.
 
