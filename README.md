@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://khlittlejohn-hue.github.io/">
+  <a href="https://kylelittlejohn.com/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
@@ -33,4 +33,4 @@ Open to **Chief of Staff, Strategy, and Operations** roles where systems thinkin
 
 ---
 
-**Find me:** &nbsp; [Website ↗](https://khlittlejohn-hue.github.io/) &nbsp;·&nbsp; [LinkedIn ↗](https://www.linkedin.com/in/kyle-littlejohn-) &nbsp;·&nbsp; [khlittlejohn@gmail.com](mailto:khlittlejohn@gmail.com)
+**Find me:** &nbsp; [Website ↗](https://kylelittlejohn.com/) &nbsp;·&nbsp; [LinkedIn ↗](https://www.linkedin.com/in/kyle-littlejohn-) &nbsp;·&nbsp; [khlittlejohn@gmail.com](mailto:khlittlejohn@gmail.com)
