@@ -15,10 +15,10 @@ I turn ambiguous executive mandates into systems other people can execute agains
 **[Executive Office ↗](https://github.com/khlittlejohn-hue/executive-office)** &nbsp;·&nbsp; A 12-department, 100+ agent operations system I designed and run on Claude Code: multi-agent orchestration, a 14-stage adversarial QC pipeline, render-time invariants that fail the build on a wrong number, and a human on every decision that leaves the system. The clearest single artifact of how I think about systems.
 
 <!-- latest:start -->
-🛠 **Latest:** `pushed changes` in [`khlittlejohn-hue.github.io`](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io) · 9h ago
-📡 **executive-office** last updated 1d ago
+🛠 **Latest:** `pushed changes` in [`khlittlejohn-hue`](https://github.com/khlittlejohn-hue/khlittlejohn-hue) · 20h ago
+📡 **executive-office** last updated 20h ago
 
-<sub>Auto-updated from my public GitHub activity · last run Jul 11, 2026</sub>
+<sub>Auto-updated from my public GitHub activity · last run Jul 12, 2026</sub>
 <!-- latest:end -->
 
 ### What I do
