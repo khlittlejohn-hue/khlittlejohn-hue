@@ -8,7 +8,7 @@
   </a>
 </p>
 
-I turn ambiguous executive mandates into systems other people can execute against. Twelve years across Chief of Staff, Strategy, PMO, and Consulting, now building applied-AI operating systems that do the same work.
+I turn ambiguous executive mandates into systems other people can execute against. 12+ years across Chief of Staff, Strategy, PMO, and Consulting, now building applied-AI operating systems that do the same work.
 
 ### 🛠 Currently building
 
