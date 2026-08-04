@@ -9,8 +9,8 @@
       <stop offset="0.62" stop-color="#f5c451" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glowB" cx="0.04" cy="1.0" r="0.7">
-      <stop offset="0" stop-color="#5aa2ff" stop-opacity="0.10"/>
-      <stop offset="0.7" stop-color="#5aa2ff" stop-opacity="0"/>
+      <stop offset="0" stop-color="#f5c451" stop-opacity="0.10"/>
+      <stop offset="0.7" stop-color="#f5c451" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="1280" height="340" fill="#0c0b0e"/>
@@ -41,16 +41,16 @@
     <line x1="1064.2" y1="158.0" x2="1009.3" y2="126.3" stroke="#3a3744" stroke-width="1" opacity="0.5"/>
     <line x1="1073.0" y1="149.2" x2="1041.3" y2="94.3" stroke="#3a3744" stroke-width="1" opacity="0.5"/>
     <circle cx="1085" cy="170" r="92" fill="none" stroke="#3a3744" stroke-width="1" opacity="0.35"/>
-    <circle cx="1085.0" cy="78.0" r="4.6" fill="#5aa2ff"/>
+    <circle cx="1085.0" cy="78.0" r="4.6" fill="#f5c451"/>
     <circle cx="1131.0" cy="90.3" r="4.6" fill="#a78bfa"/>
     <circle cx="1164.7" cy="124.0" r="4.6" fill="#34d399"/>
     <circle cx="1177.0" cy="170.0" r="4.6" fill="#f5c451"/>
-    <circle cx="1164.7" cy="216.0" r="4.6" fill="#5aa2ff"/>
+    <circle cx="1164.7" cy="216.0" r="4.6" fill="#f5c451"/>
     <circle cx="1131.0" cy="249.7" r="4.6" fill="#a78bfa"/>
     <circle cx="1085.0" cy="262.0" r="4.6" fill="#34d399"/>
     <circle cx="1039.0" cy="249.7" r="4.6" fill="#f472b6"/>
     <circle cx="1005.3" cy="216.0" r="4.6" fill="#f5c451"/>
-    <circle cx="993.0" cy="170.0" r="4.6" fill="#5aa2ff"/>
+    <circle cx="993.0" cy="170.0" r="4.6" fill="#f5c451"/>
     <circle cx="1005.3" cy="124.0" r="4.6" fill="#a78bfa"/>
     <circle cx="1039.0" cy="90.3" r="4.6" fill="#34d399"/>
     <circle cx="1085" cy="170" r="32" fill="#1b160833"/>
