@@ -29,7 +29,7 @@ I turn ambiguous executive mandates into systems other people can execute agains
 
 Open to **Chief of Staff, Strategy, and Operations** roles where systems thinking is the job, not a nice-to-have.
 
-<sub>📍 New York · Sydney · Remote</sub>
+<sub>📍 New York · Remote · open to Sydney &amp; London</sub>
 
 ---
 
