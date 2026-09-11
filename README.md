@@ -16,9 +16,9 @@ I turn ambiguous executive mandates into systems other people can execute agains
 
 <!-- latest:start -->
 🛠 **Latest:** `pushed changes` in [`khlittlejohn-hue.github.io`](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io) · 2d ago
-📡 **executive-office** last updated 7d ago
+📡 **executive-office** last updated 8d ago
 
-<sub>Auto-updated from my public GitHub activity · last run Sep 10, 2026</sub>
+<sub>Auto-updated from my public GitHub activity · last run Sep 11, 2026</sub>
 <!-- latest:end -->
 
 ### What I do
