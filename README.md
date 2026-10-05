@@ -10,9 +10,11 @@
 
 I turn ambiguous executive mandates into systems other people can execute against. 12+ years across Chief of Staff, Strategy, PMO, and Consulting, now building applied-AI operating systems that do the same work.
 
-### 🛠 Currently building
+### 📌 Pinned
 
 **[Executive Office ↗](https://github.com/khlittlejohn-hue/executive-office)** &nbsp;·&nbsp; A 14-department, 120+ agent operations system I designed and run on Claude Code: multi-agent orchestration, a 14-stage adversarial QC pipeline, render-time invariants that fail the build on a wrong number, and a human on every decision that leaves the system. The clearest single artifact of how I think about systems.
+
+**[kylelittlejohn.com ↗](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io)** &nbsp;·&nbsp; The site above, hand-built and version-controlled here: no site builder, no template, a custom domain on GitHub Pages. Positioning, case studies, and the writing, kept in the open.
 
 <!-- latest:start -->
 🛠 **Latest:** `pushed changes` in [`khlittlejohn-hue.github.io`](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io) · 25d ago
