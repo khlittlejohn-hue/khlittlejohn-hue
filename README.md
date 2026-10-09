@@ -17,10 +17,10 @@ I turn ambiguous executive mandates into systems other people can execute agains
 **[kylelittlejohn.com ↗](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io)** &nbsp;·&nbsp; The site above, hand-built and version-controlled here: no site builder, no template, a custom domain on GitHub Pages. Positioning, case studies, and the writing, kept in the open.
 
 <!-- latest:start -->
-🛠 **Latest:** `pushed changes` in [`executive-office`](https://github.com/khlittlejohn-hue/executive-office) · 3d ago
-📡 **executive-office** last updated 3d ago
+🛠 **Latest:** `pushed changes` in [`executive-office`](https://github.com/khlittlejohn-hue/executive-office) · 4d ago
+📡 **executive-office** last updated 4d ago
 
-<sub>Auto-updated from my public GitHub activity · last run Oct 08, 2026</sub>
+<sub>Auto-updated from my public GitHub activity · last run Oct 09, 2026</sub>
 <!-- latest:end -->
 
 ### What I do
