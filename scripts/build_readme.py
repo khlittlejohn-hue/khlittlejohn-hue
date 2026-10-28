@@ -40,33 +40,45 @@ def ago(iso):
     return "%dmo ago" % round(secs / 2592000)
 
 
-def latest_push():
-    """Return (repo, message, when) for the most recent public push, or None."""
+# What the event was, in plain words. The widget shows the repo, the kind of
+# activity and how long ago. It never shows a commit message: public commit
+# subjects are working notes, not copy.
+EVENT_VERBS = {
+    "PushEvent": "pushed to",
+    "ReleaseEvent": "published a release in",
+    "PullRequestEvent": "worked on a pull request in",
+    "IssuesEvent": "worked on an issue in",
+    "CreateEvent": "created a branch or tag in",
+}
+
+
+def latest_activity():
+    """Return (repo, verb, when) for the most recent public event that is real
+    work (a push, release, pull request, issue or branch/tag). Stars, forks and
+    watches are not work and are skipped. Returns None if there is none."""
     for ev in api("/users/%s/events/public" % USER):
-        if ev.get("type") != "PushEvent":
+        verb = EVENT_VERBS.get(ev.get("type"))
+        if not verb:
             continue
         repo = ev["repo"]["name"].split("/")[-1]
-        commits = ev.get("payload", {}).get("commits", [])
-        msg = commits[-1]["message"].splitlines()[0] if commits else "pushed changes"
-        if len(msg) > 72:
-            msg = msg[:69] + "..."
-        return repo, msg, ago(ev["created_at"])
+        return repo, verb, ago(ev["created_at"])
     return None
 
 
 def build_block():
     lines = []
-    push = latest_push()
-    if push:
-        repo, msg, when = push
+    act = latest_activity()
+    if act:
+        repo, verb, when = act
         url = "https://github.com/%s/%s" % (USER, repo)
-        lines.append("🛠 **Latest:** `%s` in [`%s`](%s) · %s" % (msg, repo, url, when))
-    # the flagship's own freshness, as a second honest signal
+        lines.append("🛠 **Latest:** %s [`%s`](%s) · %s" % (verb, repo, url, when))
+    # the flagship's own freshness, as a second honest signal. Skipped when it
+    # would only repeat the line above.
     try:
         eo = api("/repos/%s/executive-office" % USER)
-        lines.append(
-            "📡 **executive-office** last updated %s" % ago(eo["pushed_at"])
-        )
+        eo_when = ago(eo["pushed_at"])
+        if not act or act[0] != "executive-office" or act[2] != eo_when:
+            lines.append("📡 **executive-office** last updated %s" % eo_when)
     except Exception:
         pass
     if not lines:
