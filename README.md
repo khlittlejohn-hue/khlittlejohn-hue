@@ -17,8 +17,7 @@ I turn ambiguous executive mandates into systems other people can execute agains
 **[kylelittlejohn.com ↗](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io)** &nbsp;·&nbsp; The site above, hand-built and version-controlled here: no site builder, no template, a custom domain on GitHub Pages. Positioning, case studies, and the writing, kept in the open.
 
 <!-- latest:start -->
-🛠 **Latest:** pushed to [`executive-office`](https://github.com/khlittlejohn-hue/executive-office) · 18d ago
-📡 **executive-office** last updated 1m ago
+🛠 **Latest:** worked on an issue in [`executive-office`](https://github.com/khlittlejohn-hue/executive-office) · 16h ago
 
 <sub>Auto-updated from my public GitHub activity · last run Oct 28, 2026</sub>
 <!-- latest:end -->
