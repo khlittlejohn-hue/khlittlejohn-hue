@@ -3,12 +3,12 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-      <img alt="Kyle Littlejohn. Chief of Staff, Strategy &amp; Operations, builder of AI operating systems." src="assets/banner-dark.svg" width="100%">
+      <img alt="Kyle Littlejohn. Strategy and Operations leader. Designs and runs applied-AI operating systems." src="assets/banner-dark.svg" width="100%">
     </picture>
   </a>
 </p>
 
-I turn ambiguous executive mandates into systems other people can execute against. 12+ years across Chief of Staff, Strategy, PMO, and Consulting, now building applied-AI operating systems that do the same work.
+I turn ambiguous executive mandates into systems other people can execute against. 12+ years of strategy, operations, PMO, and consulting work, now designing applied-AI operating systems where agents prepare the work and a person owns the decision.
 
 ### 📌 Pinned
 
@@ -17,10 +17,10 @@ I turn ambiguous executive mandates into systems other people can execute agains
 **[kylelittlejohn.com ↗](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io)** &nbsp;·&nbsp; The site above, hand-built and version-controlled here: no site builder, no template, a custom domain on GitHub Pages. Positioning, case studies, and the writing, kept in the open.
 
 <!-- latest:start -->
-🛠 **Latest:** pushed to [`khlittlejohn-hue.github.io`](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io) · 13h ago
-📡 **executive-office** last updated 12d ago
+🛠 **Latest:** pushed to [`khlittlejohn-hue.github.io`](https://github.com/khlittlejohn-hue/khlittlejohn-hue.github.io) · Nov 9, 2026
+📡 **executive-office** last pushed Nov 9, 2026
 
-<sub>Auto-updated from my public GitHub activity · last run Nov 08, 2026</sub>
+<sub>Auto-updated daily from my public GitHub activity · dates are UTC · last run Nov 09, 2026</sub>
 <!-- latest:end -->
 
 ### What I do

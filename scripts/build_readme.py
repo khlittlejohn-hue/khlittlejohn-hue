@@ -28,16 +28,11 @@ def api(path):
         return json.load(r)
 
 
-def ago(iso):
-    then = datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-    secs = (datetime.now(timezone.utc) - then).total_seconds()
-    if secs < 3600:
-        return "%dm ago" % max(1, round(secs / 60))
-    if secs < 86400:
-        return "%dh ago" % round(secs / 3600)
-    if secs < 2592000:
-        return "%dd ago" % round(secs / 86400)
-    return "%dmo ago" % round(secs / 2592000)
+def when(iso):
+    """An absolute date. The block is rewritten once a day, so a relative
+    phrase such as "12d ago" is wrong by the next morning; a date stays true."""
+    then = datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ")
+    return "%s %d, %s" % (then.strftime("%b"), then.day, then.strftime("%Y"))
 
 
 # What the event was, in plain words. The widget shows the repo, the kind of
@@ -61,7 +56,7 @@ def latest_activity():
         if not verb:
             continue
         repo = ev["repo"]["name"].split("/")[-1]
-        return repo, verb, ago(ev["created_at"])
+        return repo, verb, when(ev["created_at"])
     return None
 
 
@@ -69,23 +64,23 @@ def build_block():
     lines = []
     act = latest_activity()
     if act:
-        repo, verb, when = act
+        repo, verb, date = act
         url = "https://github.com/%s/%s" % (USER, repo)
-        lines.append("🛠 **Latest:** %s [`%s`](%s) · %s" % (verb, repo, url, when))
+        lines.append("🛠 **Latest:** %s [`%s`](%s) · %s" % (verb, repo, url, date))
     # the flagship's own freshness, as a second honest signal. Skipped when it
     # would only repeat the line above.
     try:
         eo = api("/repos/%s/executive-office" % USER)
-        eo_when = ago(eo["pushed_at"])
-        if not act or act[0] != "executive-office" or act[2] != eo_when:
-            lines.append("📡 **executive-office** last updated %s" % eo_when)
+        eo_date = when(eo["pushed_at"])
+        if not act or act[0] != "executive-office" or act[2] != eo_date:
+            lines.append("📡 **executive-office** last pushed %s" % eo_date)
     except Exception:
         pass
     if not lines:
         lines.append("🛠 Building in public. See the pinned repositories below.")
     stamp = datetime.now(timezone.utc).strftime("%b %d, %Y")
     lines.append("")
-    lines.append("<sub>Auto-updated from my public GitHub activity · last run %s</sub>" % stamp)
+    lines.append("<sub>Auto-updated daily from my public GitHub activity · dates are UTC · last run %s</sub>" % stamp)
     return "\n".join(lines)
 
 
