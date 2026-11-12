@@ -19,7 +19,7 @@ I turn ambiguous executive mandates into systems other people can execute agains
 <!-- latest:start -->
 🛠 **Latest:** pushed to [`executive-office`](https://github.com/khlittlejohn-hue/executive-office) · Nov 9, 2026
 
-<sub>Auto-updated daily from my public GitHub activity · dates are UTC · last run Nov 11, 2026</sub>
+<sub>Auto-updated daily from my public GitHub activity · dates are UTC · last run Nov 12, 2026</sub>
 <!-- latest:end -->
 
 ### What I do
